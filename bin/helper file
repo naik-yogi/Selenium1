@@ -1,0 +1,9 @@
+git add "file name" -    to add file to local branch
+git commit -m "comment" -       to commit to local branch
+git branch -M main -        naming the local branch as main
+git remote add origin "url" -       to add remote repository
+git push -u origin main -          to push chages from local main brach to remote origin branch
+git pull origin main -        to sync back changes from remote branch to local branch
+git remote -v                 to check the url of remote branch
+git remote set-url origin 'url'       to chnage the url of origin reote branch
+git pull origin main --allow-unrelated-histories-    to pull all files from remote to local
